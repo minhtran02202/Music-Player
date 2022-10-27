@@ -5,7 +5,7 @@ import { RiCloseLine } from 'react-icons/ri';
 import { logo } from '../assets';
 import { links } from '../assets/constants';
 
-const NavLinks = ({ handleClick }) =>(
+const NavLinks = ({ handleClick }) => (
   <div className="mt-10">
     {links.map((item) => (
       <NavLink
