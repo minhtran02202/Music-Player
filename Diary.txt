@@ -1,2 +1,0 @@
-10/25/2023
-.map() itterate every element of array
