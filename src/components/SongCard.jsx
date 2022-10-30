@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
-import { useDispatch } from "react-redux";
-import PlayPause from "./PlayPause";
-import { playPause, setActiveSong } from "../redux/features/playerSlice";
+import { Link } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import PlayPause from './PlayPause';
+import { playPause, setActiveSong } from '../redux/features/playerSlice';
 
 const SongCard = ({ song, isPlaying, activeSong, i, data }) => {
   const dispatch = useDispatch();
